@@ -19,7 +19,7 @@ def minimumBribes(q):
         for j in range(max(0,q[i]-2,i)):
             if q[j] > q[i]:
                 total += 1
-    return total
+    return total 
 
 
 if __name__ == '__main__':
